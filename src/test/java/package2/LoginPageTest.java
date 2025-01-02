@@ -19,7 +19,8 @@ public class LoginPageTest {
     WebDriverManager.chromedriver().setup();
     driver= new ChromeDriver();
     driver.get("https://naveenautomationlabs.com/opencart/index.php?route=account/login");
-
+   System.out.println("hi");
+  
 }
 	
 	@Test
